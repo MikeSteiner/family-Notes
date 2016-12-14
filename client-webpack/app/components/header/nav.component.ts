@@ -1,21 +1,20 @@
 import { Component } from '@angular/core';
 
+import { NotesComponent } from '../main/notes.component';
+
 @Component({
-    selector: 'nav',
+    selector: 'navigation',
     templateUrl: 'nav.component.html',
-    styles: [` 
-        ul {
-            list-style-type: none;
-        }
-        
-        li{
-			display: inline-block;		
-			margin: 5px;	
-			padding: 5px;
-			height: 100%;				
-		}
-    `]
+    styles: [``],
+    providers: [ NotesComponent]
 })
 
 export class NavComponent{
+    notes: NotesComponent;
+    addNoteFn: any;
+
+    constructor(notesComponent: NotesComponent){
+        this.notes = notesComponent;
+        //this.addNoteFn = notesComponent.addNote;
+    }
 }

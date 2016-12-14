@@ -2,3 +2,4 @@
 export * from '../main/home.component';
 export * from '../main/notes.component';
 export * from '../main/about.component';
+export * from '../main/note.component';

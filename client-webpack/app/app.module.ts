@@ -1,13 +1,24 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './components/app.component';
 import { routing } from './app.routing';
-import { TopbandComponent, NavComponent, FooterComponent, NoContentComponent } from './components';
-import { HomeComponent, NotesComponent, AboutComponent } from './components';
+import {
+	TopbandComponent,
+	NavComponent,
+	FooterComponent,
+	NoContentComponent
+} from './components';
+import {
+	HomeComponent,
+	NotesComponent,
+	AboutComponent,
+	Note
+} from './components';
 
 @NgModule({
-	imports:[BrowserModule, routing],
+	imports:[BrowserModule, FormsModule, routing],
 	declarations:[
 		AppComponent,
 		TopbandComponent,
@@ -16,7 +27,8 @@ import { HomeComponent, NotesComponent, AboutComponent } from './components';
 		AboutComponent,
 		NavComponent,
 		FooterComponent,
-		NoContentComponent
+		NoContentComponent,
+		Note
 	],
 	providers:[],
 	bootstrap:[AppComponent]

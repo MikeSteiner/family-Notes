@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Personal notes/share-with-me.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "share-with-me"
             }
           }
         ]
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Personal notes/share-with-me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Personal notes/share-with-me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "public/README.md",
+                "file": "Personal notes/share-with-me.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,9 +188,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "d1c6539e9f9bd68f",
+  "active": "4665c5c712a59e6b",
   "lastOpenFiles": [
-    "README.md~",
-    "README.md"
+    "Personal notes/share-with-me.md~",
+    "README.md",
+    "Personal notes/share-with-me.md",
+    "Dskhome notes",
+    "Personal notes/Untitled",
+    "Personal notes",
+    "public/README.md",
+    "README.md~"
   ]
 }
